@@ -94,6 +94,7 @@ namespace DriverSyntax
             dgVariables.Columns[0].ReadOnly = true;
             dgVariables.Columns[1].ReadOnly = true;
             dgVariables.Columns[2].ReadOnly = true;
+            dgVariables.Columns[3].ReadOnly = true;
         }
 
         private void UpdateList(Question qst, string parentName)
