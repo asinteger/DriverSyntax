@@ -100,7 +100,7 @@ namespace DriverSyntax
         private void UpdateList(Question qst, string parentName)
         {
             int index = parentList.FindIndex(x => x.Name == parentName);// ekleyeceğimiz questionın parentquestionı daha önce parentListe eklenmiş mi kontrol ediyoruz.
-            if (index == -1) // eklenmediyse yeni oluşturup ekliyoruz
+            if (index == -1) // eklenmediyse yeni oluşturup ekliyoruz. bla bla
             {
                 ParentQuestion parent = new ParentQuestion();
                 parent = parent.Create(qst, parentList, parentName);
